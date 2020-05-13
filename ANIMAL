@@ -1,0 +1,56 @@
+index.html
+
+<!DOCTYPE html>
+<html Lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>objetos</title>
+</head>
+<body>
+
+<script src="objetos.js"></script>
+</body>
+</html>
+
+
+objetos.js
+
+var arrayObjetos = [
+ 
+{
+animal:'PERRO',
+estado:true
+},
+
+
+{
+animal:'GATO',
+estado:true
+},
+
+
+{
+animal:'PERICO',
+estado:true
+},
+
+
+{
+animal:'COCODRILO',
+estado:true
+},
+
+
+{
+animal:'MONO',
+estado:true
+}
+
+
+]
+
+for(let indice of arrayObjetos ){
+console.log(indice.animal)
+}
